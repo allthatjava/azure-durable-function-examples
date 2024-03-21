@@ -10,3 +10,13 @@ Then need to update the Storage connection string as yours
 
 * After the durable function call, you will get the path where you can see the progress and result
 ![img/status-get.png](img/status-get.png)
+
+### Update
+* updated following dependency with latest version(1.5.0) but, it still has a vulnerability... What can you do ¯\\(ツ)_/¯
+```properties
+        <dependency>
+            <groupId>com.microsoft</groupId>
+            <artifactId>durabletask-azure-functions</artifactId>
+            <version>${durabletask.azure.functions}</version>
+        </dependency>
+```
